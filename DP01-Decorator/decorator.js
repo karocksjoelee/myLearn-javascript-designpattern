@@ -26,11 +26,12 @@ function run() {
 
     var detailedUser1 = new DecoratedUser(user1, 'Freeway', 'NewYork');
     detailedUser1.say();
+
 }
 
 // run();
 
-// ES6 
+// ES6 Syntax Sugar
 class Student {
     constructor(fstName, lstName, gender, age, grade) {
         this.school = 'MYCENA';
